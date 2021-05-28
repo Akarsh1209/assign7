@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;
+}
+
+.ping{
+    width: 100%;
+    margin-top: 15%;
+    padding-bottom: 50px;
+
+}
+
+.logo{
+    display: block;
+    height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+}
+
+.we{
+    color: hsl(0, 0%, 59%);
+    font-size: 1.9rem;
+    padding-bottom: 25px;
+}
+
+.we span{
+    color: black;
+    font-weight: 700;
+}
+
+.sub{
+    padding-top:20px;
+    font-size: 1.1rem;
+    padding-bottom: 25px;
+    font-weight: 300;
+}
+
+.not{
+    border: none;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    margin-bottom: 80px;
+    width: 90%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-weight: 100;
+    font-size: 1.1rem;
+}
+
+.mail{
+    border: 1px solid hsl(0, 0%, 59%);
+    width: 90%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-weight: 100;
+    font-size: 1.1rem;
+    padding-left: 45px;
+}
+
+.mail ::placeholder{
+    color: hsl(0, 0%, 59%) ;
+    font-weight: 30;
+}
+
+.ping2{
+    width: 100%;
+    margin-bottom: 110px;
+}
+
+.pic{
+    width: 90%;
+    object-fit: cover;
+}
+
+.imgs {
+    display: inline-block;
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    
+  }
+  
+.fb{
+
+      text-decoration: none;
+      padding: 10px;
+      border: 1px solid hsl(0, 0%, 59%);
+      border-radius: 50%;
+      color: hsl(223, 87%, 63%);
+      font-size: 1.2rem;
+      width: 40px;
+  }
+
+  .copy{
+      padding: 20px;
+      font-size: .8rem;
+  }
+
+  @media(max-width:1024px){
+    .dping, .dlogo, .dwe, .dsub, .dping2, .dpic, .dnot, .dmail, .dimgs, .dcopy{
+        display: none;
+    }
+}
+
+@media(min-width: 1200px){
+    .ping, .logo, .we, .sub, .ping2, .pic, .not, .mail, .imgs, .copy{
+        display: none;
+    }
+}
+
+.dping{
+    width: 100%;
+    padding-bottom: 30px;
+
+}
+
+.dlogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    height: 20px;
+}
+
+.dwe{
+    font-size: 1.9rem;
+    color: hsl(0, 0%, 59%);
+    padding-bottom: 10px;
+}
+
+.dwe span{
+    color: black;
+    font-weight: 700;
+}
+
+.dsub{
+    font-size: .7rem;
+    padding-bottom: 25px;
+    font-weight: 300;
+}
+
+.dmail {
+    font-family: 'Libre Franklin', sans-serif;
+    width: 20%;
+    border-radius: 30px;
+    border: 1px solid hsl(0, 0%, 59%);
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    font-weight: 100;
+    font-size: .6rem;
+    margin-right: 10px;
+}
+
+.dnot{
+    font-family: 'Libre Franklin', sans-serif;
+    width: 10%;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: .7rem;
+}
+
+    
+
+.dmail ::placeholder{
+    color: hsl(0, 0%, 59%) ;
+    font-weight: 300;
+}
+
+
+
+.dping2{
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.dpic{
+    width: 30%;
+}
+
+.dimgs {
+    display: inline-block;
+    width: 5%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    
+  }
+  
+  .fb{
+
+      text-decoration: none;
+      padding: 2px;
+      border: 1px solid hsl(0, 0%, 59%);
+      border-radius: 50%;
+      color: hsl(223, 87%, 63%);
+      font-size: .5rem;
+      width: 15px;
+  }
+
+  .dcopy{
+      padding: 20px;
+      font-size: .5rem;
+      color: hsl(0, 0%, 59%);
+      font-weight: 600;
+  }
+}
